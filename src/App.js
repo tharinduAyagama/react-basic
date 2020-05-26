@@ -8,6 +8,7 @@ import Hate from './componants/Hate';
 import Like from './componants/Like';
 import Counter from './componants/Counter';
 import Name from './componants/Name';
+import List from './componants/List';
 
 function App() {
   return (
@@ -28,6 +29,9 @@ function App() {
 
       {/* child parent */}
       <Name />
+
+      {/* list data */}
+      <List />
     </div>
   );
 }
