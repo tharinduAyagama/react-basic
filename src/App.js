@@ -9,6 +9,7 @@ import Like from './componants/Like';
 import Counter from './componants/Counter';
 import Name from './componants/Name';
 import List from './componants/List';
+import Form from './componants/Form';
 
 function App() {
   return (
@@ -32,6 +33,9 @@ function App() {
 
       {/* list data */}
       <List />
+
+      {/* controlled react component */}
+      <Form />
     </div>
   );
 }
